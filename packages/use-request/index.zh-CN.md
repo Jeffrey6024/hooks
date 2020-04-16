@@ -382,7 +382,7 @@ const secondRequest = useReqeust(service);
 
 ### 2. 我如何使用 umi-request 的 `use` `errorHandler` 等？
 
-你可以将处理完后的 `request` 通过 `requsetMehod` 配置一下即可。
+你可以将处理完后的 `request` 通过 `requestMethod` 配置一下即可。
 
 ```javascript
 // 你自己封装的 request
